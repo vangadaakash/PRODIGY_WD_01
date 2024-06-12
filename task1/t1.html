@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Booking Site</title>
+    <link rel="stylesheet" href="c1.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#booking">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Our Booking Site</h1>
+        <p>Book your perfect vacation with us!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best travel experiences.<br> Our mission is to make your vacation planning easy and enjoyable. With years of experience in the travel industry, we offer personalized services to cater to all your needs.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Flight Bookings</li>
+            <li>Hotel Reservations</li>
+            <li>Tour Packages</li>
+            <li>Travel Insurance</li>
+            <li>Car Rentals</li>
+            <li>Custom Itineraries</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries or assistance. We are here to help you!</p>
+        <form id="contact-form" action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Phone: +123 456 7890</p>
+        <p>Email: contact@bookingsite.com</p>
+        <p>Address: 123 Travel Street, Adventure City, Country</p>
+    </section>
+
+    <section id="booking">
+        <h2>Book Now</h2>
+        <p>Start your booking process by clicking the button below.</p>
+        <button id="startBooking">Start Booking</button>
+    </section>
+
+    <script src="j1.js"></script>
+</body>
+</html>
